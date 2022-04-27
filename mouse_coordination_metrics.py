@@ -18,20 +18,21 @@ import mplcursors
 ## Main key     : mouse ID
 ## Secondary key: day X of mouse training
 ## Value        : list containing arguments for metrics() function
+# 3 files are needed: file containing the head and paw positions, file containing the steplength, image file with a frame for the video to label the corners of the box 
 database = {
-            'C4': {
-                'd01': ["C4/d01.csv", "C4/C4-TMday01.csv", "C4/day01.png", False],
-                'd02': ["C4/d02.csv", "C4/C4-TMday02.csv", "C4/day02.png", False],
-                'd03': ["C4/d03.csv", "C4/C4-TMday03.csv", "C4/day03.png", False],
-                'd04': ["C4/d04.csv", "C4/C4-TMday04.csv", "C4/day04.png", False],
-                'd05': ["C4/d05.csv", "C4/C4-TMday05.csv", "C4/day05.png", False],
-                'd06': ["C4/d06.csv", "C4/C4-TMday06.csv", "C4/day06.png", False],
-                'd07': ["C4/d07.csv", "C4/C4-TMday07.csv", "C4/day07.png", False],
-                'd08': ["C4/d08.csv", "C4/C4-TMday08.csv", "C4/day08.png", False],
-                'd09': ["C4/d09.csv", "C4/C4-TMday09.csv", "C4/day09.png", True],
-                'd10': ["C4/d10.csv", "C4/C4-TMday10.csv", "C4/day10.png", True],
-                'd11': ["C4/d11.csv", "C4/C4-TMday11.csv", "C4/day11.png", True],
-                'd12': ["C4/d12.csv", "C4/C4-TMday12.csv", "C4/day12.png", True],
+            'Animal_ID': {
+                'd01': ["Animal_ID/d01.csv", "Animal_ID/Animal_ID-TMday01.csv", "Animal_ID/day01.png", False],
+                'd02': ["Animal_ID/d02.csv", "Animal_ID/Animal_ID-TMday02.csv", "Animal_ID/day02.png", False],
+                'd03': ["Animal_ID/d03.csv", "Animal_ID/Animal_ID-TMday03.csv", "Animal_ID/day03.png", False],
+                'd04': ["Animal_ID/d04.csv", "Animal_ID/Animal_ID-TMday04.csv", "Animal_ID/day04.png", False],
+                'd05': ["Animal_ID/d05.csv", "Animal_ID/Animal_ID-TMday05.csv", "Animal_ID/day05.png", False],
+                'd06': ["Animal_ID/d06.csv", "Animal_ID/Animal_ID-TMday06.csv", "Animal_ID/day06.png", False],
+                'd07': ["Animal_ID/d07.csv", "Animal_ID/Animal_ID-TMday07.csv", "Animal_ID/day07.png", False],
+                'd08': ["Animal_ID/d08.csv", "Animal_ID/Animal_ID-TMday08.csv", "Animal_ID/day08.png", False],
+                'd09': ["Animal_ID/d09.csv", "Animal_ID/Animal_ID-TMday09.csv", "Animal_ID/day09.png", True],
+                'd10': ["Animal_ID/d10.csv", "Animal_ID/Animal_ID-TMday10.csv", "Animal_ID/day10.png", True],
+                'd11': ["Animal_ID/d11.csv", "Animal_ID/Animal_ID-TMday11.csv", "Animal_ID/day11.png", True],
+                'd12': ["Animal_ID/d12.csv", "Animal_ID/Animal_ID-TMday12.csv", "Animal_ID/day12.png", True],
             }
          }
 
