@@ -8,6 +8,8 @@ from pandas.core.window.rolling import Rolling
 data = pd.read_csv("/path/to/input_file.csv")
 data.columns = data.iloc[0,].str.cat(data.iloc[1,], sep="_")
 
+## in raw data from DeepLabCut body parts are labeled with acronym: left front paw = lfp, right front paw = rfp, left hind paw = lhp, right hind paw = rhp
+
 data = data.drop(['bodyparts_coords','head_likelihood','lfp_likelihood','lhp_likelihood','rfp_likelihood','rhp_likelihood','base_likelihood','tail_likelihood'], axis=1)
 
 data = data[2:len(data)]
